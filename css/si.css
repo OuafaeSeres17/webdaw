@@ -1,0 +1,37 @@
+.clasecss {
+    background-color: #ff8800;
+    font-weight: bold; }
+
+
+    .table.horario{
+        font-size:medium;
+        width: 70%;
+        text-align: center;
+        background-color: aqua;
+    }
+
+    .sisi { /*shift windows c*/
+        background-color: #b4b464;
+    }
+
+    .lmgs {
+        background-color: #f0f0c8;
+    }
+
+    .ing {
+        background-color: #ffa264;
+    }
+    .bdd {
+        background-color: #ffc8c8;
+    }
+    .prog {
+        background-color: #bc7878;
+    }
+    .ende {
+        background-color: #28c8c8;
+    }
+
+
+    .fol {
+        background-color: #f0f0c8;
+    }
