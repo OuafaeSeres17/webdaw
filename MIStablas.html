@@ -1,68 +1,249 @@
-<!DOCTYPE html> 
-<!--esta es MI tabla-->
-<html>
-    <head>
-        <title>tablas</title>
-        <link rel="stylesheet" href="css/si.css">
-    </head>
-<body> 
-<table>
-    <table class="classcss"  border="1"> 
-        <caption>Horario S1DAW</caption>
-
-        <tr>
-            <th>/~\</th>
-            <th>lunes</th>
-            <th>martes</th>
-            <th>miércoles</th>
-            <th>jueves</th>
-            <th>viernes</th>
-        </tr>
-        <tr>
-            <th>8:15 <br> 9:10</th> <!--break, salto d línea-->
-            <td class="fol">FOL<br>Prud. Ga, Es<br>(1 B-301)</td>
-            <td class="ende">ENDE<br>Polo ORr, Ed<br>(1 B-301)</td>
-            <td class="lmgs" rowspan="2">LMGS<br>Pulli. Mo, FrJo<br>(1 B-301)</td>
-            <td class="prog" rowspan="2">PROG<br>Gall. Cr, Di<br>(1 B-301)</td>
-            <td class="sisi" rowspan="2" class="sisi">SISI<br>Mart Ru, To<br>(1 B-301)<br>SISI<br>Atie. Ib, JoEn<br>(1 B-304)</td>
-        </tr>
-        <tr>
-            <th>9:10 <br> 10:05</th>
-            <td class="prog" rowspan="2">PROG<br>Gall. Cr, Di<br>(1 B-301)</td>
-            <td class="lmgs" rowspan="2">LMGS<br>Pulli. Mo, FrJo<br>(1 B-301)</td>
-        </tr>
-        <tr>
-            <th>10:05 <br> 11:00</th>
-            <td class="ing">ING<br>Guti Sa, JoÁn<br>(1 B-301)</td>
-            <td class="bdd">BDD<br>León Dí, JuEf<br>(1 B-301)</td>
-            <td class="fol">FOL<br>Prud. Ga, Es<br>(1 B-301)</td>
-        </tr>
-        <tr>
-            <th>11:00 <br> 11:30</th>
-            <td colspan="5">recreo</td>
+<!DOCTYPE html>
+<html lang="en">
  
-        </tr>
-        <tr>
-            <th>11:30 <br> 12:25</th>
-            <td class="bdd" rowspan="2">BDD<br>León Dí, JuEf<br>(1 B-301)</td>
-            <td class="fol">FOL<br>Prud. Ga, Es<br>(1 B-301)</td>
-            <td class="ende">ENDE<br>Polo ORr, Ed<br>(1 B-301)</td>
-            <td class="bdd">BDD<br>(1 B-301)</td>
-            <td class="prog" rowspan="2">PROG<br>Gall. Cr, Di<br>(1 B-301)</td>
-        </tr>
-        <tr>
-            <th>12:25 <br> 13:20</th>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas</title>
+    <link rel="stylesheet" href="css/si.css">
+</head>
+<body>
+    
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"> </div>
+                <div class="col-9"> 
+                    <span id="btnmenu" onclick="opendrawer()"> &#9776; </span>
+                    <nav id="menu" style="display: block;>
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="MISpárrafos.html">Párrafos</a>
+                            </li>
+                            <li>
+                                <a href="MIenlaces.html">Enlaces</a>
+                            </li>
+                            <li>
+                                <a href="MIlistas.html">Listas</a>
+                            </li>
+                            <li>
+                                <a href="MIStablas.html">Tablas</a>
+                            </li>
+                            <li>
+                                <a href="MIformularios.html">Formularios</a>
+                            </li>
+                            <li>
+                                <a href="MImultimedia.html">Multimedia</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="shadow">
+            <div class="pX-3">
+                <div id="home" class="py-3">
+                    <h2 class="text-center">TABLAS</h2>
+                    <h2 class="text-subr">Diferentes tipos de tablas</h2>
+                    <h3>Tabla de encabezado de fila</h3>
 
-            <td class="bdd" rowspan="2">BDD<br>León Dí, JuEf<br>(1 B-301)</td>
-            <td class="sisi" rowspan="2" >SISI<br>Mart Ru, To<br>(1 B-301)<br>SISI<br>Atie. Ib, JoEn<br>(1 B-304)</td>
-            <td class="sisi" rowspan="2">SISI<br>Mart Ru, To<br>(1 B-301)<br>SISI<br>Atie. Ib, JoEn<br>(1 B-304)</td>
-
-        </tr>
-        <tr>
-            <th>13:20 <br> 14:15</th>
-            <td class="ende">ENDE<br>Polo ORr, Ed<br>(1 B-301)</td>
-            <td class="ing">ING<br>Guti Sa, JoÁn<br>(1 B-301)</td>
-        </tr>
-</table>
+                    
+                </div>
+            </div>
+<table border="1" class="tcentered">
+                        <tr>
+                            <th>File</th>
+                            <th>Edit</th>
+                            <th>Selection</th>
+                            <th>View</th>
+                            <th>Go</th>
+                        </tr>
+                        <tr>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                        </tr>
+                        <tr>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                        </tr>
+                        <tr>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                        </tr>
+                    </table>
+                    <h3>Tabla de encabezado de columna</h3>
+                    <table border="1" class="tcentered">
+                        <tr>
+                            <th>File</th>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                        </tr>
+                        <tr>
+                            <th>Edit</th>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                        </tr>
+                        <tr>
+                            <th>Selection</th>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                        </tr>
+                        <tr>
+                            <th>View</th>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                        </tr>
+                    </table>
+                    <h3>Tabla con combinaciones de celdas</h3>
+                    <table border="1">
+                        <tr>
+                            <th>File</th>
+                            <th>Edit</th>
+                            <th>Selection</th>
+                            <th>View</th>
+                            <th>Go</th>
+                        </tr>
+                        <tr>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">celda</td>
+                            <td colspan="4">celda</td>
+                        </tr>
+                        <tr>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                        </tr>
+                    </table>
+                    <h3>Tabla con diseño diferente en filas pares impares</h3>
+                    <table border="1" class="tstriped">
+                        <caption>Título de la tabla.</caption>
+                        <tr>
+                            <th>File</th>
+                            <th>Edit</th>
+                            <th>Selection</th>
+                            <th>View</th>
+                            <th>Go</th>
+                        </tr>
+                        <tr>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                        </tr>
+                        <tr>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                        </tr>
+                        <tr>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                            <td>celda</td>
+                        </tr>
+                    </table>
+                        <br>
+                    <table>
+                        <table class="classcss"  border="1"> 
+                            <caption>Horario S1DAW</caption>
+                    
+                            <tr>
+                                <th>/~\</th>
+                                <th>lunes</th>
+                                <th>martes</th>
+                                <th>miércoles</th>
+                                <th>jueves</th>
+                                <th>viernes</th>
+                            </tr>
+                            <tr>
+                                <th>8:15 <br> 9:10</th> <!--break, salto d línea-->
+                                <td class="fol">FOL<br>Prud. Ga, Es<br>(1 B-301)</td>
+                                <td class="ende">ENDE<br>Polo ORr, Ed<br>(1 B-301)</td>
+                                <td class="lmgs" rowspan="2">LMGS<br>Pulli. Mo, FrJo<br>(1 B-301)</td>
+                                <td class="prog" rowspan="2">PROG<br>Gall. Cr, Di<br>(1 B-301)</td>
+                                <td class="sisi" rowspan="2" class="sisi">SISI<br>Mart Ru, To<br>(1 B-301)<br>SISI<br>Atie. Ib, JoEn<br>(1 B-304)</td>
+                            </tr>
+                            <tr>
+                                <th>9:10 <br> 10:05</th>
+                                <td class="prog" rowspan="2">PROG<br>Gall. Cr, Di<br>(1 B-301)</td>
+                                <td class="lmgs" rowspan="2">LMGS<br>Pulli. Mo, FrJo<br>(1 B-301)</td>
+                            </tr>
+                            <tr>
+                                <th>10:05 <br> 11:00</th>
+                                <td class="ing">ING<br>Guti Sa, JoÁn<br>(1 B-301)</td>
+                                <td class="bdd">BDD<br>León Dí, JuEf<br>(1 B-301)</td>
+                                <td class="fol">FOL<br>Prud. Ga, Es<br>(1 B-301)</td>
+                            </tr>
+                            <tr>
+                                <th>11:00 <br> 11:30</th>
+                                <td colspan="5">recreo</td>
+                     
+                            </tr>
+                            <tr>
+                                <th>11:30 <br> 12:25</th>
+                                <td class="bdd" rowspan="2">BDD<br>León Dí, JuEf<br>(1 B-301)</td>
+                                <td class="fol">FOL<br>Prud. Ga, Es<br>(1 B-301)</td>
+                                <td class="ende">ENDE<br>Polo ORr, Ed<br>(1 B-301)</td>
+                                <td class="bdd">BDD<br>(1 B-301)</td>
+                                <td class="prog" rowspan="2">PROG<br>Gall. Cr, Di<br>(1 B-301)</td>
+                            </tr>
+                            <tr>
+                                <th>12:25 <br> 13:20</th>
+                    
+                                <td class="bdd" rowspan="2">BDD<br>León Dí, JuEf<br>(1 B-301)</td>
+                                <td class="sisi" rowspan="2" >SISI<br>Mart Ru, To<br>(1 B-301)<br>SISI<br>Atie. Ib, JoEn<br>(1 B-304)</td>
+                                <td class="sisi" rowspan="2">SISI<br>Mart Ru, To<br>(1 B-301)<br>SISI<br>Atie. Ib, JoEn<br>(1 B-304)</td>
+                    
+                            </tr>
+                            <tr>
+                                <th>13:20 <br> 14:15</th>
+                                <td class="ende">ENDE<br>Polo ORr, Ed<br>(1 B-301)</td>
+                                <td class="ing">ING<br>Guti Sa, JoÁn<br>(1 B-301)</td>
+                            </tr>
+                    </table>
+                            
+        </main>
+        <footer> 
+            <h1 class="bg-red text-center text-white py-3">&copy;Realizado por Ouafae Serroukh</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer(){
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
 </body>
+
 </html>
